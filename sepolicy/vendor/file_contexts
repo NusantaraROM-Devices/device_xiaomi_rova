@@ -20,6 +20,9 @@
 # Cryptfshw
 /(product|system/product)/lib(64)?/vendor\.qti\.hardware\.cryptfshw@1\.0\.so           u:object_r:same_process_hal_file:s0
 
+# Device nodes
+/dev/stune(/.*)?	u:object_r:cgroup:s0
+
 # Firmware
 /firmware                                                     u:object_r:firmware_file:s0
 /bt_firmware                                                  u:object_r:bt_firmware_file:s0
