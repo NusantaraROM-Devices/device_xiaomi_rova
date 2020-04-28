@@ -141,9 +141,6 @@ vendor.video.disable.ubwc=1
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
 
-# Perf
-ro.vendor.extension_library=libqti-perfd-client.so
-
 # Netflix
 ro.netflix.bsp_rev=Q660-13149-1
 
@@ -151,6 +148,10 @@ ro.netflix.bsp_rev=Q660-13149-1
 ro.vendor.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true
 persist.vendor.data.mode=concurrent
+
+# Perf
+ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.radio.multisim.config=dsds
