@@ -13,7 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 TARGET_BOOT_ANIMATION_RES := 720
 NAD_BUILD_TYPE := OFFICIAL
 USE_PIXEL_CHARGING := true
-TARGET_USES_BLUR := true
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from rova device
