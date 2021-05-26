@@ -1,3 +1,4 @@
+allow hal_power_stats_default sysfs:dir r_dir_perms;
 allow hal_power_stats_default sysfs_msm_wlan:dir search; # Needed to traverse to wlan stats file
 allow hal_power_stats_default sysfs_kgsl:file { r_file_perms getattr };
 r_dir_file(hal_power_stats_default, sysfs_iio_devices) # Needed to traverse odpm files
