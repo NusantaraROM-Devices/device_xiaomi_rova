@@ -55,3 +55,6 @@ genfscon sysfs /board_properties/virtualkeys.ist30xx_ts_input		u:object_r:sysfs_
 
 # Vibrator
 genfscon sysfs /devices/platform/soc/soc:vibrator_gpio/leds/vibrator	u:object_r:sysfs_vibrator:s0
+
+# Kernelspace battery saver 
+genfscon sysfs /module/battery_saver/parameters/enabled u:object_r:sysfs_battery_saver:s0 

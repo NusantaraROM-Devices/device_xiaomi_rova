@@ -1,2 +1,6 @@
 # DT2W
 allow hal_power_default dt2w_ctrl:file rw_file_perms;
+
+# Kernelspace battery saver 
+allow hal_power_default sysfs_battery_saver:dir r_dir_perms;
+allow hal_power_default sysfs_battery_saver:file rw_file_perms; 

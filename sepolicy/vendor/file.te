@@ -11,6 +11,9 @@ type dt2w_ctrl, fs_type, proc_type;
 # FDT
 type fdt_model, fs_type, sysfs_type;
 
+# Kernelspace battery saver
+type sysfs_battery_saver, fs_type, sysfs_type;
+
 # netmgr
 type netmgr_data_file, file_type, data_file_type;
 
