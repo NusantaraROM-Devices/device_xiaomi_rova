@@ -326,6 +326,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.msm.usb.configfs.rc \
+    init.logcat.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
