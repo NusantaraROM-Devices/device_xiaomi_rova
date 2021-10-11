@@ -180,6 +180,13 @@ void set_dalvik_heap_size()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+
+
+    // ADB
+    property_override("ro.secure", "0");
+    property_override("ro.adb.secure", "0");
+    property_override("ro.debuggable", "1");
+    property_override("persist.sys.usb.config", "adb");
 }
 
 void set_variant_props(const variant_info_t variant) {
