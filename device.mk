@@ -252,6 +252,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
+# Net
+PRODUCT_PACKAGES += \
+    android.system.net.netd@1.1.vendor
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -331,7 +335,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.msm.usb.configfs.rc \
-    init.temp.rc \
+    init.logcat.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
