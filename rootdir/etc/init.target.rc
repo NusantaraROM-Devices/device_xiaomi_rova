@@ -228,9 +228,3 @@ service ppd /vendor/bin/mm-pp-dpps
     group system graphics
     socket pps stream 0660 system system
     disabled
-
-# Vibrator
-on boot
-    chown system system /sys/class/leds/vibrator/activate
-    chown system system /sys/class/leds/vibrator/duration
-    chown system system /sys/class/leds/vibrator/state
