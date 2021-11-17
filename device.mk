@@ -10,10 +10,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 DEVICE_PACKAGE_OVERLAYS +=  \
     $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    xiaomi_rolex_overlay \
-    xiaomi_riva_overlay
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
