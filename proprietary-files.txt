@@ -3,7 +3,6 @@
 # riva Package version:		riva-user	7.1.2 N2G47H V10.1.1.0.NCKMIFI release-keys
 # riva Package version: Xiaomi/riva/riva:8.1.0/OPM1.171019.026/V11.0.2.0.OCKMIXM:user/release-keys
 # rolex Package version:	rolex-user	7.1.2 N2G47H V10.2.3.0.NCCMIXM release-keys
-# tissot Package version: Tissot PKQ1.180917.001 V10.0.24.0.PDHMIXM
 
 # ACDB - from riva
 etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
@@ -911,11 +910,11 @@ vendor/etc/perf/perfconfigstore.xml|de7a673eca27fb44b7dcd34c60d21f7ffbd2b9d8
 vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
 vendor/etc/perf/targetresourceconfigs.xml|a913faa5efddec9542ef0db3b57a60ddb6bb6e1b
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib64/libperipheral_client.so
+# Peripheral manager - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/bin/pm-proxy|cfa016d416eb95949c76090bde8ccffcd5517159
+vendor/bin/pm-service|06608529b6125c5362dee26f459c52d9e51f3c92
+vendor/lib/libperipheral_client.so|7ace2f7c8c7ebd986db6c7796de7237e584e658b
+vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
 # Postprocessing
 etc/permissions/com.qti.snapdragon.sdk.display.xml
@@ -934,14 +933,13 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Power-off alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
-product/framework/vendor.qti.hardware.alarm-V1.0-java.jar
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
-vendor/bin/power_off_alarm
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so
+# Power-off alarm - from LA.UM.9.6.3.r1-04400-89xx.0
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|bc906abd03e4a243201dde626b6580fd8a4f73ce
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|586b142f9bc4bf3098b4962682c4de1c13810f9b
+vendor/bin/power_off_alarm|b8c7ddc1bed336753c3746925fd0f4a9925aa36c
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|4129558506dc078c03679ba362acda4755457742
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|3c182fd3343942c431e1d27d87f8fe114644ca36
 
 # Power-off charging daemon - from riva O
 vendor/bin/chargeonlymode|3a777c1aec821afb8ce80e063a9145ca79ec9bd1
@@ -1196,12 +1194,11 @@ vendor/bin/thermal-engine
 vendor/lib64/libthermalfeature.so
 vendor/lib64/libthermalioctl.so
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/etc/init/init.time_daemon.rc
--vendor/lib/libtime_genoff.so
--vendor/lib64/libtime_genoff.so
+# Time services - from LA.UM.9.6.3.r1-04400-89xx.0
+-vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
+vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
 
 # TUI
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
