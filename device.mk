@@ -317,6 +317,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
+# Platform
+TARGET_BOARD_PLATFORM := msm8937
+TARGET_BOARD_SUFFIX := _64
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2 \
