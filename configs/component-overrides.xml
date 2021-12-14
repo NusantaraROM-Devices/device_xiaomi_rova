@@ -14,6 +14,8 @@
 -->
 <config>
     <component-override package="com.android.bluetooth" >
-        <component class=".hfpclient.HeadsetClientService" enabled="true" />
+        <component class=".avrcpcontroller.AvrcpControllerService" enabled="false" />
+        <component class=".hfpclient.HeadsetClientService" enabled="false" />
+        <component class=".sap.SapService" enabled="false" />
     </component-override>
 </config>
