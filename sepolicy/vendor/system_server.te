@@ -1,11 +1,12 @@
 get_prop(system_server, userspace_reboot_config_prop)
 get_prop(system_server, userspace_reboot_exported_prop)
 
-allow system_server app_zygote:process { getpgid };
-
 # Baseband
 get_prop(system_server, baseband_prop)
 
 # Input devices
 r_dir_file(system_server, vendor_idc_file);
 r_dir_file(system_server, vendor_keylayout_file);
+
+# Smart charging
+allow system_server app_zygote:process getpgid;
