@@ -17,6 +17,9 @@ ro.fastbootd.available=true
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
 
+# Iorapd
+ro.iorapd.enable=false
+
 # Perf-config
 ro.vendor.qti.sys.fw.bservice_age=5000
 ro.vendor.qti.sys.fw.bservice_limit=5
