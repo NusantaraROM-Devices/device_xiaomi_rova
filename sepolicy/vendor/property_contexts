@@ -7,6 +7,9 @@ persist.vendor.camera.     u:object_r:camera_prop:s0
 vendor.camera.             u:object_r:camera_prop:s0
 ctl.vendor.imsrcsd         u:object_r:vendor_ctl_vendor_imsrcsservice_prop:s0
 
+# Baseband
+gsm.version.baseband            u:object_r:baseband_prop:s0
+
 # Init
 vendor.target.init.complete     u:object_r:vendor_init_prop:s0
 
