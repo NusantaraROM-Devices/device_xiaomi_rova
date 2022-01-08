@@ -1,0 +1,2 @@
+# Radio
+set_prop(hal_sensors_default, persist_sensors_radio_prop)
