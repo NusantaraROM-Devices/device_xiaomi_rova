@@ -1,2 +1,5 @@
 allow zygote self:capability kill;
 get_prop(zygote, exported_camera_prop)
+
+# Baseband
+get_prop(zygote, baseband_prop)
