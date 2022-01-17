@@ -1219,3 +1219,6 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
+
+# Wi-Fi - from LA.UM.9.6.3.r1-04400-89xx.0
+vendor/bin/wcnss_service|48e4a96a9de69bd83791a3b0b2134f5ab1205adc
