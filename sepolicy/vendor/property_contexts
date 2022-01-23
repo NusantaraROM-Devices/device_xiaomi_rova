@@ -10,6 +10,9 @@ ctl.vendor.imsrcsd         u:object_r:vendor_ctl_vendor_imsrcsservice_prop:s0
 # Init
 vendor.target.init.complete     u:object_r:vendor_init_prop:s0
 
+# Radio
+persist.ims.regmanager.mode     u:object_r:vendor_imsradio_prop:s0
+
 # WiFi
 vendor.wlan.                    u:object_r:vendor_wifi_prop:s0
 
