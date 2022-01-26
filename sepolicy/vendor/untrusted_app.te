@@ -19,3 +19,4 @@ allow untrusted_app window_service:service_manager { find };
 allow untrusted_app input_device:dir { search };
 allow untrusted_app proc_zoneinfo:file { read };
 
+get_prop(untrusted_app, vendor_camera_prop)

@@ -1,4 +1,6 @@
 allow hal_camera_default camera_data_file:sock_file write;
-allow hal_camera_default bootanim_system_prop:file { read open getattr };
+
+get_prop(hal_camera_default, vendor_camera_prop)
+get_prop(hal_camera_default, bootanim_system_prop)
 
 dontaudit hal_camera_default default_prop:file { read open };
