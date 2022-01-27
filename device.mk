@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
 # APEX
+OVERRIDE_TARGET_FLATTEN_APEX := true
 OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 
 # APN
