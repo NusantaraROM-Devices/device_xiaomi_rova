@@ -114,6 +114,10 @@ vendor/lib64/soundfx/libasphere.so
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
+# AV Enhancements - from LA.UM.9.6.3.r1-04400-89xx.0
+system_ext/lib/libavenhancements.so|9372b77cbd6667a2144c55da1adf3859ae37f849
+system_ext/lib64/libavenhancements.so|884d8585fe7554ee332e6436241a82f27a098890
+
 # Bluetooth - from LA.UM.9.6.3.r1-04400-89xx.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|458aea3e8d0dec4a3e17fd476f4dea2392edc0e2
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
