@@ -3,7 +3,6 @@ sys.post_boot.parsed       u:object_r:vendor_mpctl_prop:s0
 persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
 camera.dual.mode           u:object_r:camera_prop:s0
 persist.vendor.camera.     u:object_r:camera_prop:s0
-vendor.camera.             u:object_r:camera_prop:s0
 ctl.vendor.imsrcsd         u:object_r:vendor_ctl_vendor_imsrcsservice_prop:s0
 
 # Baseband
@@ -20,6 +19,7 @@ persist.debug.sf.showfps        u:object_r:vendor_camera_prop:s0
 persist.partial.skip            u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.dbglog    u:object_r:vendor_camera_prop:s0
 ro.camera.                      u:object_r:vendor_camera_prop:s0
+vendor.camera.                  u:object_r:vendor_camera_prop:s0
 
 # Init
 vendor.target.init.complete     u:object_r:vendor_init_prop:s0
