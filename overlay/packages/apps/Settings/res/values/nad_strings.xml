@@ -14,5 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="maintainer_name">Ridwan Adi Cahyono</string>
-
+    <string name="github_username">ItoRenz</string>
+    <string name="telegram_username">ItoRenz</string>
+ 
 </resources>
