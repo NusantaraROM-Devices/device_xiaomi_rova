@@ -15,3 +15,5 @@ allow mm-qcamerad camera_prop:file { read open };
 allow mm-qcamerad property_socket:sock_file { write };
 allow mm-qcamerad sysfs_jpeg:file { read };
 allow mm-qcamerad default_prop:file { getattr };
+
+dontaudit mm-qcamerad default_prop:file { read open };
