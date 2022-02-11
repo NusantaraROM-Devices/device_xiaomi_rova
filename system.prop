@@ -11,6 +11,11 @@ dalvik.vm.image-dex2oat-cpu-set=0,1,2,3
 dalvik.vm.image-dex2oat-filter=speed-profile
 dalvik.vm.image-dex2oat-threads=4
 
+# Display
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
+
 # fastbootd
 ro.fastbootd.available=true
 
