@@ -18,6 +18,10 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     com.dsi.ant@1.0.vendor
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/rolex_mixer_paths_qrd_sku2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/rolex_mixer_paths_qrd_sku2.xml \
