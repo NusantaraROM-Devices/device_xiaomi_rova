@@ -20,6 +20,7 @@ persist.partial.skip            u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.dbglog    u:object_r:vendor_camera_prop:s0
 ro.camera.                      u:object_r:vendor_camera_prop:s0
 vendor.camera.                  u:object_r:vendor_camera_prop:s0
+vidc.enc.dcvs.extra-buff-count	u:object_r:camera_prop:s0
 
 # Init
 vendor.target.init.complete     u:object_r:vendor_init_prop:s0
