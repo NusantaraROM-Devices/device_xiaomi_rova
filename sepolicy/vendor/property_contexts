@@ -6,6 +6,7 @@ persist.camera.            u:object_r:camera_prop:s0
 persist.vendor.camera.     u:object_r:camera_prop:s0
 vendor.camera.             u:object_r:camera_prop:s0
 ctl.vendor.imsrcsd         u:object_r:vendor_ctl_vendor_imsrcsservice_prop:s0
+vidc.enc.dcvs.extra-buff-count	u:object_r:camera_prop:s0
 
 # Xiaomi
 ro.vendor.xiaomi.	u:object_r:vendor_xiaomi_prop:s0
