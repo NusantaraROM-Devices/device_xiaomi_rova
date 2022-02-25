@@ -15,8 +15,5 @@ allow init firmware_file:filesystem getattr;
 # LED
 allow init sysfs_leds:lnk_file r_file_perms;
 
-# Prop
-get_prop(init, vendor_xiaomi_prop)
-
 # Transitions to seclabel processes in init.rc
 domain_auto_trans(init, vendor_charger_exec, vendor_charger)
