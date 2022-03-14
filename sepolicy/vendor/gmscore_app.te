@@ -1,4 +1,5 @@
 allow gmscore_app exported_camera_prop:file { read };
+allow gmscore_app vendor_camera_prop:file { read };
 
 # Baseband (without this, device will freeze)
 get_prop(gmscore_app, baseband_prop)
