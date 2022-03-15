@@ -1,1 +1,2 @@
+allow timeservice_app default_prop:file { read };
 allow timeservice_app zygote:unix_stream_socket { getopt };
