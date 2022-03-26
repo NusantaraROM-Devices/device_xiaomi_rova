@@ -14,7 +14,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # ANT
 PRODUCT_PACKAGES += \
-    AntHalService-Soong
+    AntHalService-Soong \
+    com.dsi.ant@1.0.vendor
 
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
