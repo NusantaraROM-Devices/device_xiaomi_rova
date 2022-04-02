@@ -13,7 +13,7 @@ allow untrusted_app postinstall_mnt_dir:dir { getattr };
 allow untrusted_app proc_asound:dir { search };
 allow untrusted_app proc_max_map_count:file { read open };
 allow untrusted_app proc_pid_max:file { read open };
-allow untrusted_app proc_zoneinfo:file { read open };
+allow untrusted_app proc_zoneinfo:file { read open getattr };
 allow untrusted_app qemu_hw_prop:file { read open getattr };
 allow untrusted_app qemu_sf_lcd_density_prop:file { read open getattr };
 allow untrusted_app rootfs:dir { read open };
