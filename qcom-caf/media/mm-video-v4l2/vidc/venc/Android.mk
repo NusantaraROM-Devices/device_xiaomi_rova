@@ -104,6 +104,7 @@ endif
 
 # Common Includes
 libmm-venc-inc      := $(LOCAL_PATH)/inc
+libmm-venc-inc      += $(LIBION_HEADER_PATHS)
 libmm-venc-inc      += $(LOCAL_PATH)/../../../mm-video-v4l2/vidc/common/inc
 libmm-venc-inc      += $(LOCAL_PATH)/../../../mm-core/inc
 libmm-venc-inc      += $(LOCAL_PATH)/../../../libstagefrighthw
@@ -139,7 +140,6 @@ LOCAL_VENDOR_MODULE             := true
 LOCAL_CFLAGS                    := $(libmm-venc-def)
 
 LOCAL_HEADER_LIBRARIES := \
-        display_headers \
         media_plugin_headers \
         libnativebase_headers \
         libcutils_headers \
@@ -183,7 +183,6 @@ LOCAL_VENDOR_MODULE             := true
 LOCAL_CFLAGS                    := $(libmm-venc-def)
 
 LOCAL_HEADER_LIBRARIES := \
-        display_headers \
         media_plugin_headers \
         libnativebase_headers \
         libutils_headers \
