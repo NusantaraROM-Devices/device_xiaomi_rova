@@ -1,13 +1,13 @@
 [
   {
     "remote": "github",
-    "repository": "NusantaraROM-Devices/kernel_xiaomi_rova",
+    "repository": "Raunak-sdm/kernel_xiaomi_rova",
     "target_path": "kernel/xiaomi/rova",
     "branch": "12"
   },
   {
     "remote": "github",
-    "repository": "NusantaraROM-Devices/vendor_xiaomi_rova",
+    "repository": "Raunak-sdm/vendor_xiaomi_rova",
     "target_path": "vendor/xiaomi/rova",
     "branch": "12"
   }
