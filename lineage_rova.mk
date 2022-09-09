@@ -31,4 +31,4 @@ TARGET_VENDOR := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Gapps
-WITH_GMS := false
+WITH_GMS := True
