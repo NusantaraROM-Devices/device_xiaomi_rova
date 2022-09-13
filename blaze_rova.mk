@@ -15,6 +15,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORT_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 BLAZE_MAINTAINER := Warrior
+BLAZE_BUILD_TYPE := UNOFFICIAL
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Inherit from rova device
