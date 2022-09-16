@@ -11,7 +11,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 
 # Inherit some common ConquerOS stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORT_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 CONQUER_BUILD_TYPE := UNOFFICIAL
