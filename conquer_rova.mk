@@ -15,7 +15,7 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORT_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 CONQUER_BUILD_TYPE := UNOFFICIAL
-# TARGET_USE_GAPPS := true
+# TARGET_USE_GAPPS := false
 
 $(call inherit-product, vendor/conquer/config/common.mk)
 
