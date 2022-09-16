@@ -9,21 +9,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit some common ProjectBlaze stuff.
+# Inherit some common ConquerOS stuff.
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORT_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
-BLAZE_MAINTAINER := Warrior
-BLAZE_BUILD_TYPE := UNOFFICIAL
-$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+CONQUER_BUILD_TYPE := UNOFFICIAL
+$(call inherit-product, vendor/conquer/config/common.mk)
 
 # Inherit from rova device
 $(call inherit-product, device/xiaomi/rova/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := rova
-PRODUCT_NAME := blaze_rova
+PRODUCT_NAME := conquer_rova
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4A / 5A
