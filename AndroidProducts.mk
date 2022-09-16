@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_rova.mk
+    $(LOCAL_DIR)/conquer_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_rova-user \
-    blaze_rova-userdebug \
-    blaze_rova-eng
+    conquer_rova-user \
+    conquer_rova-userdebug \
+    conquer_rova-eng
