@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_rova.mk
+    $(LOCAL_DIR)/dot_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_rova-user \
-    conquer_rova-userdebug \
-    conquer_rova-eng
+    dot_rova-user \
+    dot_rova-userdebug \
+    dot_rova-eng
