@@ -13,6 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_SUPPORT_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+# Include GAPPS
+WITH_GAPPS := false
 
 $(call inherit-product, vendor/404/configs/common.mk)
 
