@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_rova.mk
+    $(LOCAL_DIR)/p404_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_rova-user \
-    nad_rova-userdebug \
-    nad_rova-eng
+    p404_rova-user \
+    p404_rova-userdebug \
+    p404_rova-eng
